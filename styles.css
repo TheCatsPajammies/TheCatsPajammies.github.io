@@ -1,0 +1,115 @@
+/* Write your CSS here! */
+html { 
+    scroll-behavior: smooth;
+    background: url(./images/largecreek.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+li {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+#testP {
+
+}
+
+.funParagraph {
+    
+}
+
+#mainHeading {
+    
+}
+
+.main__hero p {
+    text-indent: 40px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.holder {
+    max-width: 1000px;
+    display: inline-block;
+    margin-top: 30px;
+    background: black;
+    z-index: 100;
+}
+
+.critter_info {
+    padding-top: 30px;
+}
+
+.critter_info p {
+    text-indent: 40px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+section {
+    position: relative;
+    min-height: 50vh;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caption {
+    margin:10px;
+}
+
+
+.image {
+    display: inline-block;
+    align-items: center;
+    max-width: 700px;
+}
+
+img {
+    max-width: 700px;
+}
+
+.navbar_menu {
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#bottom {
+    background: #333;
+}
